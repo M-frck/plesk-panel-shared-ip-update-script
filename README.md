@@ -7,12 +7,15 @@ This script automates the process of updating the shared IP address in the Plesk
 # Features
 
 -Automatically updates the shared IP in Plesk.
+
 -Avoids connection issues caused by mismatched IP configurations.
+
 -Rereads the configuration to ensure proper syncing.
 
 # Prerequisites
 
 -A server running Plesk Panel.
+
 -Access to the server as the root user.
 
 # Installation and Usage
