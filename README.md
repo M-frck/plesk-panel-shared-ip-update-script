@@ -49,10 +49,9 @@ Replace /path/to/plesk-shared-ip-script/plesk-shared-ip-template.sh with the ful
 
 Save and exit the crontab editor.
 
-```
-Notes
 
-```
+# Notes
+
 Ensure the script has the appropriate permissions:
 ```
 
