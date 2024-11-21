@@ -58,6 +58,11 @@ Ensure the script has the appropriate permissions:
 chmod +x script.sh
 
 ```
+
+# Additionaly
+
+If upon running the script, another issue arose: the script required root permissions to execute successfully. To resolve this, passwordless sudo permissions were granted to the user responsible for managing the Plesk panel. This was done using the sudo visudo command, adding the following line: ```yourusername ALL=(ALL) NOPASSWD: /path/to/your/shared-ip.sh.```
+
 The script should be placed in a secure location accessible to the root user.
 
 # License
